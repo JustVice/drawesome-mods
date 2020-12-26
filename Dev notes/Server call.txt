@@ -1,0 +1,5 @@
+SERVER CALL FOUND: LINE 950
+SPECIFIC CALL CODE BLOCK:
+case "erase": { ios.emit("derase", this.props.user.u); break
+|--- this.props.user.u
+It's the user's username
